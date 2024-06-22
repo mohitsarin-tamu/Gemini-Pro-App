@@ -1,0 +1,13 @@
+prefix=/Users/mohitsarin/Documents/GitHub/Gemini-Pro-App/venv
+exec_prefix=/Users/mohitsarin/Documents/GitHub/Gemini-Pro-App/venv
+libdir=/Users/mohitsarin/Documents/GitHub/Gemini-Pro-App/venv/lib
+sharedlibdir=/Users/mohitsarin/Documents/GitHub/Gemini-Pro-App/venv/lib
+includedir=/Users/mohitsarin/Documents/GitHub/Gemini-Pro-App/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
